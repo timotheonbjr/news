@@ -46,7 +46,7 @@ Your page tree could, for example look like that:
 Create news records
 ===================
 
-Before any news record can be shown in the frontend those need to be
+Before any news record can be shown in the frontend they need to be
 created.
 
 .. include:: /Images/AutomaticScreenshots/AddNewsInAdminModule.rst.txt
@@ -103,24 +103,24 @@ List page
 #. Switch to the tab :guilabel:`Plugin` where you can define the plugins settings.
    The most important settings are :guilabel:`What to display` and :guilabel:`Startingpoint`.
 
-   #. The selected view is already :guilabel:`List view`. This is fine.
+   #. The selected view is already :guilabel:`List view`. Leave it that way.
 
    #. Fill the field :guilabel:`Startingpoint` by selecting the :guilabel:`sysfolder` you created
-      in the beginning of the tutorial.
+      at the beginning of the tutorial.
 
-   #. Switch to tab :guilabel:`Additional` and fill the field :guilabel:`PageId
-      for single news display` with the page you just created before.
+   #. Switch to tab :guilabel:`Additional` and fill in the field :guilabel:`PageId
+      for a single news display` with the page you just created before.
 
       .. include:: /Images/AutomaticScreenshots/PluginAdditional.rst.txt
 
    #. Save the plugin.
 
-Read more about the plugin configuration in chapter :ref:`Plugin <plugin>`.
+Read more about the plugin configuration in the chapter :ref:`Plugin <plugin>`.
 
 Have a look at the frontend
 ===========================
 
 Load the "News list" page in the frontend and you should now see the news records
-as output. A click on the title should show the news record on the
-detail page. You want to change the way the records are displayed? Have a look
-at the chapter :ref:`Templating <quickTemplating>`
+as output. A click on the title should show the news record on the detail page 
+(in this example, News Display). Do you want to change the way the records are displayed? 
+Have a look at the chapter :ref:`Templating <quickTemplating>`
